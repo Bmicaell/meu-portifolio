@@ -158,46 +158,27 @@ aside h2 {
 }
 
 
-
-
 .container {
     height: 60px;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-evenly;
-
-   
-
-    
+    justify-content: space-evenly;    
 }
 
 span.item {
     align-self: center;
-   
    
 }
 
 
 span.item img {
     font-size: 1.8em;
-
     width: 25px;
-
-    
-    
-    
-    
 }
 
 span.item a {
     font-size: 1.5em;
-    
-
     color: white;
-
-    
-
-   
 }
 
 footer {
