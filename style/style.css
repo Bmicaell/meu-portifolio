@@ -61,13 +61,17 @@ main {
     width: 90%;
 
     min-width: 300px;
+    max-width: 1200px;
    
 
     margin: auto;
+    margin-bottom: 30px;
 
     padding: 10px;
-
     padding-bottom: 20px;
+
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.295);
 }
@@ -117,6 +121,13 @@ main  img.logo {
     
 } 
 
+
+.externo {
+    font-weight: bold;
+
+    color: var(--cor04);
+}
+
 .externo::after{
     content: '\00A0\1F517';
     
@@ -132,7 +143,7 @@ main a {
 aside {
     background-color: var(--cor02);
 
-    padding: 10px 10px 30px 10px;
+    padding: 10px 10px 15px 10px;
 
     border-radius: 10px 0;
 }
@@ -150,22 +161,44 @@ aside h2 {
 
 
 .container {
+    height: 60px;
     display: flex;
-    justify-content: center;
-}
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
 
-div a {
+   
 
-    text-align: center;
-
-    color: var(--cor04);
-
-    font-family: var(--font-p);
-
-    text-decoration: none;
     
 }
 
+span.item {
+    align-self: center;
+   
+   
+}
+
+
+span.item img {
+    font-size: 1.8em;
+
+    width: 25px;
+
+    
+    
+    
+    
+}
+
+span.item a {
+    font-size: 1.5em;
+    
+
+    color: white;
+
+    
+
+   
+}
 
 footer {
 
